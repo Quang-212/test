@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.sidebar {
+    background-color: aliceblue;
+    width: 150px;
+    height: 40px;
+    border-radius: 4px;
+    outline: none;
+    font-size: 20px;
+    color: aqua;
+    border: 1px solid red;
+    cursor: pointer;
+}
+.sidebar:hover {
+    opacity: 0.8;
+}
+.sidebar:active {
+    background-color: blanchedalmond;
+}
